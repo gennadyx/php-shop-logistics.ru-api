@@ -4,7 +4,7 @@ All Notable changes to `php-shop-logistics.ru-api` will be documented in this fi
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
-## 0.1.0 - 2017-02-12
+## 0.1.0 - 2017-03-02
 
 ## Initial release
 
