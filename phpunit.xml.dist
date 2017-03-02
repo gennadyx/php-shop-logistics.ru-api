@@ -1,0 +1,20 @@
+<phpunit bootstrap="./vendor/autoload.php" colors="true">
+    <testsuites>
+        <testsuite name="redreams php-shop-logistics.ru-api test case">
+            <directory suffix=".php">./tests</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist addUncoveredFilesFromWhitelist="true">
+            <directory>./src</directory>
+        </whitelist>
+        <blacklist>
+            <file>./src/Api.php</file>
+            <file>./src/Environment.php</file>
+            <directory>./src/Exception</directory>
+            <file>./src/Response/Error.php</file>
+            <file>./src/Response/Keys.php</file>
+            <file>./src/Api/ApiInterface.php</file>
+        </blacklist>
+    </filter>
+</phpunit>
