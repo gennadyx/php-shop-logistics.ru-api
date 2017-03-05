@@ -49,7 +49,7 @@ class ApiClientTest extends TestCase
     {
         $client = ApiClientBuilder::create()->build();
         $this->assertEquals(ApiClient::TEST_KEY, $client->getKey());
-        $this->assertEquals(ApiClient::URL[Environment::TEST], $client->getUri());
+        $this->assertEquals(ApiClient::URL[Environment::TEST], $client->getUrl());
     }
 
     /**
@@ -145,7 +145,7 @@ class ApiClientTest extends TestCase
 
         $this->assertEquals($key, $client->getKey());
         $this->assertInstanceOf(Client::class, $client->getHttpClient());
-        $this->assertEquals(ApiClient::URL[Environment::PROD], $client->getUri());
+        $this->assertEquals(ApiClient::URL[Environment::PROD], $client->getUrl());
         $this->assertInstanceOf(GuzzleMessageFactory::class, $client->getRequestFactory());
         $this->assertInstanceOf(GuzzleStreamFactory::class, $client->getStreamFactory());
         $this->assertTrue(is_callable($client->getEncoder()));
@@ -163,7 +163,7 @@ class ApiClientTest extends TestCase
 
         $this->assertEquals(ApiClient::TEST_KEY, $client->getKey());
         $this->assertInstanceOf(CurlClient::class, $client->getHttpClient());
-        $this->assertEquals(ApiClient::URL[Environment::TEST], $client->getUri());
+        $this->assertEquals(ApiClient::URL[Environment::TEST], $client->getUrl());
         $this->assertInstanceOf(DiactorosMessageFactory::class, $client->getRequestFactory());
         $this->assertInstanceOf(DiactorosStreamFactory::class, $client->getStreamFactory());
 

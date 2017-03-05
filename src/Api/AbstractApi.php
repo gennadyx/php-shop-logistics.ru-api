@@ -147,7 +147,7 @@ abstract class AbstractApi implements ApiInterface
         $requestFactory = $this->client->getRequestFactory();
         $httpClient     = $this->client->getHttpClient();
 
-        $uri  = $this->client->getUri();
+        $uri  = $this->client->getUrl();
         $data = urlencode(base64_encode($xml));
 
         $requestBody = sprintf('xml=%s', $data);

@@ -14,7 +14,7 @@ namespace Gennadyx\ShopLogisticsRu;
 use Gennadyx\ShopLogisticsRu\Response\Error;
 
 /**
- * This class is helper for work with results calling of remote functions
+ * Helper for work with results calling of remote functions
  *
  * @author Gennady Knyazkin <dev@gennadyx.tech>
  */

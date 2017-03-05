@@ -97,7 +97,7 @@ class ApiClient
     /**
      * @var string
      */
-    private $uri;
+    private $url;
 
     /**
      * @var callable
@@ -148,7 +148,7 @@ class ApiClient
         }
 
         $this->key            = $key;
-        $this->uri            = self::URL[$environment->getValue()];
+        $this->url            = self::URL[$environment->getValue()];
         $this->requestFactory = $requestFactory;
         $this->streamFactory  = $streamFactory;
         $this->encoder        = $encoder;
@@ -171,9 +171,9 @@ class ApiClient
      *
      * @return string
      */
-    public function getUri()
+    public function getUrl()
     {
-        return $this->uri;
+        return $this->url;
     }
 
     /**
