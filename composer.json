@@ -20,7 +20,6 @@
     "require-dev": {
         "php-http/client-common": "^1.4",
         "php-http/curl-client": "^1.6",
-        "phpunit/php-code-coverage": "^5.0",
         "phpunit/phpunit" : "~5.7",
         "php-http/mock-client": "^0.3",
         "squizlabs/php_codesniffer": "^2.3",
