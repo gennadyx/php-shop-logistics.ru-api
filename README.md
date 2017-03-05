@@ -89,14 +89,14 @@ The MIT License (MIT). Please see [License File](LICENSE) for more information.
 [ico-travis]: https://img.shields.io/travis/gennadyx/php-shop-logistics.ru-api/master.svg?style=flat
 [ico-coverage]: https://img.shields.io/scrutinizer/coverage/g/gennadyx/php-shop-logistics.ru-api.svg?style=flat
 [ico-code-quality-scrutinizer]: https://img.shields.io/scrutinizer/g/gennadyx/php-shop-logistics.ru-api.svg?style=flat
-[ico-code-quality-sensio]: https://insight.sensiolabs.com/projects/d842a38c-27e4-47e9-9e35-c010e1ae0866/mini.png
+[ico-code-quality-sensio]: https://insight.sensiolabs.com/projects/6ede6306-c632-40ec-bffb-8e533a81ca55/mini.png
 [ico-downloads]: https://img.shields.io/packagist/dt/gennadyx/php-shop-logistics.ru-api.svg?style=flat
 
 [link-packagist]: https://packagist.org/packages/gennadyx/php-shop-logistics.ru-api
 [link-travis]: https://travis-ci.org/gennadyx/php-shop-logistics.ru-api
 [link-coverage]: https://scrutinizer-ci.com/g/gennadyx/php-shop-logistics.ru-api/code-structure
 [link-code-quality-scrutinizer]: https://scrutinizer-ci.com/g/gennadyx/php-shop-logistics.ru-api
-[link-code-quality-sensio]: https://insight.sensiolabs.com/projects/d842a38c-27e4-47e9-9e35-c010e1ae0866
+[link-code-quality-sensio]: https://insight.sensiolabs.com/projects/6ede6306-c632-40ec-bffb-8e533a81ca55
 [link-downloads]: https://packagist.org/packages/gennadyx/php-shop-logistics.ru-api
 [link-author]: https://github.com/gennadyx
 [link-contributors]: https://github.com/gennadyx/php-shop-logistics.ru-api/contributors
