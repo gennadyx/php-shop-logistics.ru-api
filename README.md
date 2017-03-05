@@ -8,7 +8,6 @@
 [![Coverage Status][ico-coverage]][link-coverage]
 [![Sensiolabs_Medal][ico-code-quality-sensio]][link-code-quality-sensio]
 [![Quality Score][ico-code-quality-scrutinizer]][link-code-quality-scrutinizer]
-[![Quality Codacy][ico-code-quality-codacy]][link-code-quality-codacy]
 
 ##php-shop-logistics.ru-api
 PHP oop wrapper for shop-logistics.ru remote functions 
@@ -90,7 +89,6 @@ The MIT License (MIT). Please see [License File](LICENSE) for more information.
 [ico-travis]: https://img.shields.io/travis/gennadyx/php-shop-logistics.ru-api/master.svg?style=flat
 [ico-coverage]: https://img.shields.io/scrutinizer/coverage/g/gennadyx/php-shop-logistics.ru-api.svg?style=flat
 [ico-code-quality-scrutinizer]: https://img.shields.io/scrutinizer/g/gennadyx/php-shop-logistics.ru-api.svg?style=flat
-[ico-code-quality-codacy]: https://img.shields.io/codacy/grade/f913804bf6544759a7ffb5f28240c59f.svg?style=flat
 [ico-code-quality-sensio]: https://insight.sensiolabs.com/projects/d842a38c-27e4-47e9-9e35-c010e1ae0866/mini.png
 [ico-downloads]: https://img.shields.io/packagist/dt/gennadyx/php-shop-logistics.ru-api.svg?style=flat
 
@@ -99,7 +97,6 @@ The MIT License (MIT). Please see [License File](LICENSE) for more information.
 [link-coverage]: https://scrutinizer-ci.com/g/gennadyx/php-shop-logistics.ru-api/code-structure
 [link-code-quality-scrutinizer]: https://scrutinizer-ci.com/g/gennadyx/php-shop-logistics.ru-api
 [link-code-quality-sensio]: https://insight.sensiolabs.com/projects/d842a38c-27e4-47e9-9e35-c010e1ae0866
-[link-code-quality-codacy]: https://www.codacy.com/app/gennadyx5/php-shop-logistics-ru-api
 [link-downloads]: https://packagist.org/packages/gennadyx/php-shop-logistics.ru-api
 [link-author]: https://github.com/gennadyx
 [link-contributors]: https://github.com/gennadyx/php-shop-logistics.ru-api/contributors
