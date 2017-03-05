@@ -9,8 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Gennadyx\ShopLogisticsRu;
+namespace Gennadyx\ShopLogisticsRu\Tests;
 
+use Gennadyx\ShopLogisticsRu\CallResult;
 use Gennadyx\ShopLogisticsRu\Response\Error;
 use PHPUnit\Framework\TestCase;
 

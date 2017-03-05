@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Gennadyx\ShopLogisticsRu;
+namespace Gennadyx\ShopLogisticsRu\Tests;
 
 use Gennadyx\ShopLogisticsRu\Api\Delivery;
 use Gennadyx\ShopLogisticsRu\Api\Dictionary;
@@ -20,6 +20,9 @@ use Gennadyx\ShopLogisticsRu\Api\ProductAct;
 use Gennadyx\ShopLogisticsRu\Api\Products;
 use Gennadyx\ShopLogisticsRu\Api\QaReports;
 use Gennadyx\ShopLogisticsRu\Api\ReturnAct;
+use Gennadyx\ShopLogisticsRu\ApiClient;
+use Gennadyx\ShopLogisticsRu\ApiClientBuilder;
+use Gennadyx\ShopLogisticsRu\Environment;
 use Gennadyx\ShopLogisticsRu\Exception\InvalidArgumentException;
 use Gennadyx\ShopLogisticsRu\Exception\RuntimeException;
 use Http\Client\Curl\Client as CurlClient;
@@ -37,6 +40,11 @@ use PHPUnit\Framework\TestCase;
  */
 class ApiClientTest extends TestCase
 {
+    /**
+     * Function testConstructorDefaultParams
+     *
+     * @throws InvalidArgumentException
+     */
     public function testConstructorDefaultParams()
     {
         $client = ApiClientBuilder::create()->build();

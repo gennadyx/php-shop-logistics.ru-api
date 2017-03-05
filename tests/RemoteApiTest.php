@@ -9,8 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Gennadyx\ShopLogisticsRu;
+namespace Gennadyx\ShopLogisticsRu\Tests;
 
+use Gennadyx\ShopLogisticsRu\ApiClient;
+use Gennadyx\ShopLogisticsRu\ApiClientBuilder;
 use Gennadyx\ShopLogisticsRu\Response\Error;
 use Http\Client\Exception;
 use Http\Mock\Client;

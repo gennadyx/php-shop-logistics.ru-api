@@ -9,8 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Gennadyx\ShopLogisticsRu;
+namespace Gennadyx\ShopLogisticsRu\Tests;
 
+use Gennadyx\ShopLogisticsRu\ApiClientBuilder;
 use Http\Mock\Client;
 use PHPUnit\Framework\TestCase;
 use Zend\Diactoros\Response\HtmlResponse;
