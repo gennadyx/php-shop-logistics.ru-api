@@ -98,5 +98,5 @@ The MIT License (MIT). Please see [License File](LICENSE) for more information.
 [link-code-quality-scrutinizer]: https://scrutinizer-ci.com/g/gennadyx/php-shop-logistics.ru-api
 [link-code-quality-sensio]: https://insight.sensiolabs.com/projects/6ede6306-c632-40ec-bffb-8e533a81ca55
 [link-downloads]: https://packagist.org/packages/gennadyx/php-shop-logistics.ru-api
-[link-author]: https://github.com/gennadyx
-[link-contributors]: https://github.com/gennadyx/php-shop-logistics.ru-api/contributors
+[link-author]: https://gennadyx.tech
+[link-contributors]: https://github.com/php-shop-logistics.ru-api/contributors

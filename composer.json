@@ -2,13 +2,13 @@
     "name": "gennadyx/php-shop-logistics.ru-api",
     "description": "php-shop-logistics.ru-api composer package",
     "keywords": ["shop-logistics.ru", "rpc", "remote", "api"],
-    "homepage": "https://github.com/gennadyx/php-shop-logistics.ru-api",
+    "homepage": "https://github.com/php-shop-logistics.ru-api",
     "license": "MIT",
     "authors": [
         {
             "name": "Gennady Knyazkin",
             "email": "dev@gennadyx.tech",
-            "homepage": "https://github.com/gennadyx"
+            "homepage": "https://gennadyx.tech"
         }
     ],
     "require": {
