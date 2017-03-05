@@ -13,5 +13,5 @@ script: php vendor/bin/phpunit --configuration ./phpunit.xml.dist
 notifications:
   email:
     recipients:
-    - gennadyx5@gmail.com
+    - dev@gennadyx.tech
     on_success: change

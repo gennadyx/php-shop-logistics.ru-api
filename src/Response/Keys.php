@@ -3,7 +3,7 @@
 /*
  * This file is part of the php-shop-logistics.ru-api package.
  *
- * (c) Gennady Knyazkin <gennadyx5@gmail.com>
+ * (c) Gennady Knyazkin <dev@gennadyx.tech>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -14,7 +14,7 @@ namespace Gennadyx\ShopLogisticsRu\Response;
 /**
  * List of response xml root keys
  *
- * @author Gennady Knyazkin <gennadyx5@gmail.com>
+ * @author Gennady Knyazkin <dev@gennadyx.tech>
  */
 final class Keys
 {

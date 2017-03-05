@@ -3,7 +3,7 @@
 /*
  * This file is part of the php-shop-logistics.ru-api package.
  *
- * (c) Gennady Knyazkin <gennadyx5@gmail.com>
+ * (c) Gennady Knyazkin <dev@gennadyx.tech>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -14,7 +14,7 @@ namespace Gennadyx\ShopLogisticsRu\Api;
 /**
  * Interface for all api classes
  *
- * @author Gennady Knyazkin <gennadyx5@gmail.com>
+ * @author Gennady Knyazkin <dev@gennadyx.tech>
  */
 interface ApiInterface
 {

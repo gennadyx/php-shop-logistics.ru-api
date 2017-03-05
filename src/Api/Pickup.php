@@ -3,7 +3,7 @@
 /*
  * This file is part of the php-shop-logistics.ru-api package.
  *
- * (c) Gennady Knyazkin <gennadyx5@gmail.com>
+ * (c) Gennady Knyazkin <dev@gennadyx.tech>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -21,7 +21,7 @@ use Gennadyx\ShopLogisticsRu\Response\Keys;
  *         pickup place
  * @method array updatePlace(string $code, array $placeData, string &$errorMessage) Update pickup place
  *
- * @author Gennady Knyazkin <gennadyx5@gmail.com>
+ * @author Gennady Knyazkin <dev@gennadyx.tech>
  */
 final class Pickup extends AbstractApi
 {
