@@ -11,6 +11,8 @@
 
 namespace Gennadyx\ShopLogisticsRu\Api;
 
+use Gennadyx\ShopLogisticsRu\Response\Error;
+
 /**
  * Interface for all api classes
  *
@@ -24,7 +26,7 @@ interface ApiInterface
      * @param string $name      Method name
      * @param array  $arguments Arguments
      *
-     * @return mixed
+     * @return array|Error
      */
     public function call($name, ...$arguments);
 }
