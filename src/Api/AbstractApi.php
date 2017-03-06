@@ -41,13 +41,9 @@ abstract class AbstractApi implements ApiInterface
     }
 
     /**
-     * @param string $name
-     * @param array  $arguments
-     *
-     * @return array|Error
-     * @throws \Gennadyx\ShopLogisticsRu\Exception\BadMethodCallException
+     * {@inheritdoc}
      */
-    public function __call($name, array $arguments)
+    public function call($name, ...$arguments)
     {
         $map = $this->getMethodsMap();
 
@@ -66,6 +62,18 @@ abstract class AbstractApi implements ApiInterface
         $arguments = isset($method['arguments']) ? $method['arguments'] : $arguments;
 
         return $this->callMethod($method, $arguments);
+    }
+
+    /**
+     * @param string $name
+     * @param array  $arguments
+     *
+     * @return array|Error
+     * @throws \Gennadyx\ShopLogisticsRu\Exception\BadMethodCallException
+     */
+    public function __call($name, array $arguments)
+    {
+        return $this->call($name, ...$arguments);
     }
 
     /**

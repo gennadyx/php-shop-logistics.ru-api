@@ -18,4 +18,13 @@ namespace Gennadyx\ShopLogisticsRu\Api;
  */
 interface ApiInterface
 {
+    /**
+     * Call remote method (function)
+     *
+     * @param string $name      Method name
+     * @param array  $arguments Arguments
+     *
+     * @return mixed
+     */
+    public function call($name, ...$arguments);
 }
