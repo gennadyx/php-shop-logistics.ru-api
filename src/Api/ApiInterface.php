@@ -28,5 +28,5 @@ interface ApiInterface
      *
      * @return array|Error
      */
-    public function call($name, ...$arguments);
+    public function call($name, array $arguments);
 }

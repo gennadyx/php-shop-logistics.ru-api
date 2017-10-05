@@ -43,7 +43,7 @@ abstract class AbstractApi implements ApiInterface
     /**
      * {@inheritdoc}
      */
-    public function call($name, ...$arguments)
+    public function call($name, array $arguments = [])
     {
         $map = $this->getMethodsMap();
 
